@@ -1,0 +1,45 @@
+(.venv) C:\Users\Root707303\Desktop\2048>git remote add 2048-Game https://github.com/MAKE-CORN-POPCORN/2048-Game.git
+
+(.venv) C:\Users\Root707303\Desktop\2048>git remote
+2048-Game
+
+(.venv) C:\Users\Root707303\Desktop\2048>git remote -vv
+2048-Game       https://github.com/MAKE-CORN-POPCORN/2048-Game.git (fetch)
+2048-Game       https://github.com/MAKE-CORN-POPCORN/2048-Game.git (push)
+
+(.venv) C:\Users\Root707303\Desktop\2048>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream 2048-Game master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+(.venv) C:\Users\Root707303\Desktop\2048>git log
+commit 123cc78f1902c6e72b61a6effdef8ed918b72be9 (HEAD -> master)
+Author: POPING-POPCORN-REAL <140892114+POPING-POPCORN-REAL@users.noreply.github.com>
+Date:   Sat Jul 29 21:53:17 2023 +0800
+
+    The First Version Of The Game
+
+     - Basic Game Code
+     - .venv Environment Settings
+
+(.venv) C:\Users\Root707303\Desktop\2048>git push -u 2048-Game master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.86 KiB | 1.86 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MAKE-CORN-POPCORN/2048-Game.git
+ * [new branch]      master -> master
+branch 'master' set up to track '2048-Game/master'.
+
+(.venv) C:\Users\Root707303\Desktop\2048>git push
+
+
+
+
+
